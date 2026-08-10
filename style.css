@@ -6,7 +6,7 @@
     display: none; 
 }
 .wiki-page.active { 
-    display:block; 
+    display:block;
 }
 body {
     font-family: Fredoka, sans-serif;
@@ -14,10 +14,9 @@ body {
 }
 .pagename {
     height: auto;
-    width: 100%;
+    width: 100%; 
     background-color: #2d3b54;
     color:white;
-    display: flex;
     justify-content: center;
 }
 #home {
