@@ -6,7 +6,7 @@
     display: none; 
 }
 .wiki-page.active { 
-    display:flex; 
+    display:block; 
 }
 body {
     font-family: Fredoka, sans-serif;
