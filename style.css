@@ -13,11 +13,14 @@ body {
     background-color: cornflowerblue;
 }
 .pagename {
-    height: auto;
+    height: 50px;
     width: 100%; 
     background-color: #2d3b54;
     color:white;
     justify-content: center;
+}
+.directory {
+    width: 80%;
 }
 #home {
     font-family: Fredoka, sans-serif;
