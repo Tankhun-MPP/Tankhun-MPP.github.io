@@ -51,3 +51,18 @@ body {
     height: 100%;
     border: 0;
 }
+
+.video-container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 0;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
