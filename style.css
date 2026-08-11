@@ -13,9 +13,8 @@ body {
     background-color: cornflowerblue;
 }
 h1 {
-    font-size: 200%;
+    font-size:200%;
 }
-
 .pagename {
     display: flex;
     justify-content: space-between;
@@ -31,8 +30,12 @@ h1 {
     border: 2px solid blue;
     border-radius: 8px;
     border-collapse: collapse;
-    fill: aliceblue;
+    fill: rgb(174, 197, 217);
     color: black;
+}
+.directory th td tr {
+    fill: aliceblue;
+    border: 2px solid blue;
 }
 #home {
     font-family: Fredoka, sans-serif;
@@ -40,14 +43,19 @@ h1 {
 }
 
 .video-container {
-    max-width: 500px; 
-    width: 100%; 
-    margin: 20px auto;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    width: 25%;
+    max-width: 25%;
 }
 
 .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    aspect-ratio: 16 / 9; 
-    height: auto;
+    height: 100%;
     border: 0;
 }
