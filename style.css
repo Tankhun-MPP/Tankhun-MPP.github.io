@@ -37,7 +37,7 @@ h1 h2 {
     fill: aliceblue;
     border: 2px solid blue;
 }
-.spt li dt {
+.spt dt {
     font-weight: bolder;
     font-size: 125%;
 }
