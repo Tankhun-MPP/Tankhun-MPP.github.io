@@ -23,7 +23,12 @@ body {
     box-sizing: border-box;
 }
 .directory {
-    width: 80%;
+    width: 50%;
+    border: 2px solid blue;
+    border-radius: 8px;
+    border-collapse: collapse;
+    fill: aliceblue;
+    color: black;
 }
 #home {
     font-family: Fredoka, sans-serif;
