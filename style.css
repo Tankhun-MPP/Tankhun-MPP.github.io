@@ -12,6 +12,10 @@ body {
     font-family: Fredoka, sans-serif;
     background-color: cornflowerblue;
 }
+h1 {
+    font-size: 200%;
+}
+
 .pagename {
     display: flex;
     justify-content: space-between;
