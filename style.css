@@ -36,16 +36,14 @@ body {
 }
 
 .video-container {
-    position: relative;
-    max-width: 600px;
-    width: 100%;
+    max-width: 600px;   
+    width: 100%;      
+    margin: 0 auto;    
     overflow: hidden;
-    margin: 0 auto;
-    border: 0;
 }
 
 .video-container iframe {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 9; 
     border: 0;
 }
