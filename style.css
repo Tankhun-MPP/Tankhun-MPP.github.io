@@ -43,19 +43,15 @@ h1 h2 {
 }
 
 .video-container {
-    position: relative;
-    height: 394px;
-    overflow: hidden;
-    width: 700px;
-    max-width: 50%;
+    width: 100%;
+    max-width: 700px;
     margin: 20px auto;
+    overflow: hidden;
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    aspect-ratio: 16 / 9; /* Automatically calculates the exact height from the width */
+    display: block;
     border: 0;
 }
