@@ -13,11 +13,14 @@ body {
     background-color: cornflowerblue;
 }
 .pagename {
-    height: 50px;
-    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     background-color: #2d3b54;
-    color:white;
-    justify-content: center;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
 }
 .directory {
     width: 80%;
