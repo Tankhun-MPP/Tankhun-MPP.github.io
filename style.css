@@ -44,11 +44,11 @@ h1 {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
+    height: 394px;
     overflow: hidden;
-    width: 25%;
-    max-width: 25%;
+    width: 700px;
+    max-width: 50%;
+    margin: 20px auto;
 }
 
 .video-container iframe {
