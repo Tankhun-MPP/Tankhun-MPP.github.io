@@ -47,6 +47,10 @@ h1 h2 {
     color: white;
     border-radius: 8px;
 }
+.warning {
+    background-color: yellow;
+    border-radius: 8px;
+}
 #home {
     font-family: Fredoka, sans-serif;
     background-color: rgb(161, 190, 244);
