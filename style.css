@@ -63,9 +63,14 @@ th td tr {
 
 .spoiler-with-html a {
     color: transparent;
+    pointer-events: none;
 }
+
+.spoiler-with-html.revealed,
 .spoiler-with-html.revealed a {
-    color: blue;
+    background-color: transparent;
+    color: inherit;
+    pointer-events: auto;
 }
 .warning {
     background-color: yellow;
