@@ -51,6 +51,10 @@ h1 h2 {
     font-family: Fredoka, sans-serif;
     background-color: rgb(161, 190, 244);
 }
+#gimmicks {
+    font-family: Fredoka, sans-serif;
+    background-color: rgb(197, 225, 247);
+}
 #nojavascript, #nopage {
     background-color: rgb(255, 157, 157);
 }
