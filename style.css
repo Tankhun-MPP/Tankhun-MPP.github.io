@@ -71,7 +71,7 @@ th td tr {
     color: inherit;
 }
 .spoiler-text.revealed a {
-    color: initial;
+    color: blue;
     pointer-events: auto;
 }
 .warning {
