@@ -66,10 +66,12 @@ th td tr {
     pointer-events: none;
 }
 
-.spoiler-with-html.revealed,
-.spoiler-with-html.revealed a {
+.spoiler-with-html.revealed {
     background-color: transparent;
     color: inherit;
+}
+.spoiler-text.revealed a {
+    color: initial;
     pointer-events: auto;
 }
 .warning {
