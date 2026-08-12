@@ -41,6 +41,12 @@ h1 h2 {
     font-weight: bolder;
     font-size: 125%;
 }
+.spoiler {
+    border: 0px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
 #home {
     font-family: Fredoka, sans-serif;
     background-color: rgb(161, 190, 244);
