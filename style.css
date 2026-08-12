@@ -45,6 +45,9 @@ h1 h2 {
     font-family: Fredoka, sans-serif;
     background-color: rgb(161, 190, 244);
 }
+#nojavascript, #nopage {
+    background-color: rgb(255, 157, 157);
+}
 
 .video-container {
     width: 100%;
