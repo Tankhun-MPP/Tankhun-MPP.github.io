@@ -61,8 +61,11 @@ th td tr {
     color: inherit;
 }
 
+.spoiler-with-html a {
+    color: transparent;
+}
 .spoiler-with-html.revealed a {
-    color: #4da6ff;
+    color: blue;
 }
 .warning {
     background-color: yellow;
@@ -82,6 +85,10 @@ th td tr {
 #gimmicks {
     font-family: Fredoka, sans-serif;
     background-color: rgb(197, 225, 247);
+}
+#story {
+    font-family: Fredoka, sans-serif;
+    background-color:#eeaaff;
 }
 #nojavascript, #nopage {
     background-color: rgb(255, 157, 157);
