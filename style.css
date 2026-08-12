@@ -33,7 +33,7 @@ h1 h2 {
     fill: rgb(174, 197, 217);
     color: black;
 }
-.directory th td tr {
+th td tr {
     fill: aliceblue;
     border: 2px solid blue;
 }
