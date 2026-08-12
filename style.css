@@ -51,6 +51,13 @@ h1 h2 {
     font-family: Fredoka, sans-serif;
     background-color: rgb(161, 190, 244);
 }
+#home pre {
+    font-family: Fredoka, sans-serif;
+    background-color: rgb(224, 235, 255);
+    color: black;
+    border: 2px solid cornflowerblue;
+    border-radius: 8px;
+}
 #gimmicks {
     font-family: Fredoka, sans-serif;
     background-color: rgb(197, 225, 247);
