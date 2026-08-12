@@ -77,6 +77,7 @@
             <li>Deltarune</li>
             <li>Content Creators</li>
             <li>memes</li>
+            <li>PJSK (dialogue system in the <button data-spoiler="simulations in the post-game" onclick="revealSpoiler(this)">(press to reveal spoiler)</button>)</li>
         </ul>
         <h2>Development of Game</h2>
         <dl class="spt">
@@ -190,6 +191,17 @@
         // Run when hash changes or page loads
         window.addEventListener('hashchange', showPage);
         window.addEventListener('DOMContentLoaded', showPage);
+        function revealSpoiler(element) {
+            if (!element.dataset.originalText) {
+                 element.dataset.originalText = element.innerText;
+            }
+
+            if (element.innerText === element.dataset.spoiler) {
+                element.innerText = element.dataset.originalText;
+            } else {
+                element.innerText = element.dataset.spoiler;
+            }
+        }
     </script>
 </body>
 <!--<head>
