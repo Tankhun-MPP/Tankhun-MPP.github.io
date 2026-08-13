@@ -56,11 +56,6 @@ th td tr {
     user-select: none;
 }
 
-.spoiler-with-html a {
-    color: transparent;
-    pointer-events: none;
-}
-
 .spoiler-with-html.revealed {
     background-color: transparent;
     color: inherit;
