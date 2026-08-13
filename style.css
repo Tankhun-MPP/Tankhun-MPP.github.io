@@ -56,11 +56,6 @@ th td tr {
     user-select: none;
 }
 
-.spoiler-with-html.revealed {
-    background-color: transparent;
-    color: inherit;
-}
-
 .spoiler-with-html a {
     color: transparent;
     pointer-events: none;
@@ -71,7 +66,7 @@ th td tr {
     color: inherit;
 }
 .spoiler-with-html.revealed a {
-    color:initial;
+    color:blue;
     pointer-events: auto;
 }
 .warning {
