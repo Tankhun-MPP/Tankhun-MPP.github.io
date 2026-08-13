@@ -70,8 +70,8 @@ th td tr {
     background-color: transparent;
     color: inherit;
 }
-.spoiler-text.revealed a {
-    color: blue;
+.spoiler-with-html.revealed a {
+    color:initial;
     pointer-events: auto;
 }
 .warning {
