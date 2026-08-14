@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Fredoka";
+    src: url("fonts/Fredoka.ttf") format("truetype");
+}
+.wiki-page { 
+    display: none; 
+}
+.wiki-page.active { 
+    display:block; 
+}
+body {
+    font-family: Fredoka, sans-serif;
+    background-color: cornflowerblue;
+}
+.pagename {
+    height: auto;
+    width: 100%;
+    background-color: #2d3b54;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+#home {
+    font-family: Fredoka, sans-serif;
+    background-color: cornflowerblue;
+}
