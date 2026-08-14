@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<head>
+    <title>SGWH WIKI</title>
+    <link rel="icon" type="image/png" href="/SGWHWIKI/images/SGWHLOGO.png">
+    <link rel="stylesheet" href="/SGWHWIKI/style.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="gimmicks">
+        <div class="pagename">
+            <h1>GIMMICKS PAGE</h1><img src="/SGWHWIKI/images/SGWHLOGO.png" style="width:50px;height:50px;">
+        </div>
+        <table class="directory">
+            <tr>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/">Home</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/gimmicks/">Gimmicks</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/score/">Score System</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/gimmanese/">Gimmanese</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/story/">Story</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/npc/">NPCs and Dialogue System</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/map/">Game map and features</a></td>
+            </tr>
+            <tr>
+                <th>Sections</th>
+            </tr>
+            <tr>
+                <td><a href="#intro">Introduction</a></td>
+            </tr>
+            <tr>
+                <td><a href="#getting">How to get a gimmick</a></td>
+            </tr>
+            <tr>
+                <td><a href="#removing">How to remove a gimmick</a></td>
+            </tr>
+            <tr>
+                <td><a href="#properties">Properties of a Gimmick</a></td>
+            </tr>
+        </table>
+        <h1>GIMMICKS</h1>
+        <h2 id="intro"><i>Introduction</i></h2>
+        <p>
+            Gimmicks are an important mechanic/part of Some Gimmick Will Happen.<br>
+            Gimmicks basically mean that there is something special in a thing, like when there's a gimmick in a game,
+            that means that the game is special from the others in a way.<br>
+            In this game, gimmick is the thing that can cause the chaos in the game that can change everything in the
+            world (locally)
+        </p>
+        <h2 id="getting">How to get a gimmick?</h2>
+        <p>
+            In this game, you can get a random gimmick in every n seconds, where n starts at 30.<br>
+            You're probably asking why is it n, but not 30. The reason is that gimmicks can change n too.<br>
+            If you are a normal player, this is the only way to get a gimmick.<br>
+            But for a person who has admin powers, you can get them by running a command, or opening the Gimmick Panel
+            then selecting a gimmick to toggle them.<br>
+            Why is there a Gimmick Panel? Solely for testing.
+        </p>
+        <h2 id="removing">How to remove a gimmick?</h2>
+        <p>
+            A gimmick can be removed by a NPC named <a href="/SGWHWIKI/npc/jinx">Jinx (NO PAGE RIGHT NOW)</a><br>
+            You talk to Jinx to ask to remove a gimmick.<br>
+            Though, he will actually pick a random gimmick to remove, and if you don't have that specific gimmick to be
+            removed,<br>
+            You will be punished by turning your head upside down.
+            This is the only way to remove a gimmick as a normal player.
+            For people who have admin powers, it is the same thing as to get a gimmick as a person who has admin powers.
+        </p>
+        <h2 id="properties">The Properties of a Gimmick</h2>
+        <p>
+            For each gimmick in the game, it will have 6 properties:
+        </p>
+        <ol type="1">
+            <li>Name: The name of the gimmick</li>
+            <li>Description: Short description that explains the gimmick simply</li>
+            <li>Long Description: A Long Description that explains the gimmick, the pros, the cons, and funny notes.
+                More <a href="#gimmicks_longdes">below</a>.</li>
+            <li>Type: (ON 0.6.0P4 UPDATE) Explains how complex the gimmick is. More <a href="#gimmicks_type">below</a>.
+            </li>
+            <li>Passive Score Changes: It will change how much <a href="/SGWHWIKI/score/passivescore">Passive Score</a> you get every
+                second.</li>
+            <li>GimmickID: A unique number that represents the gimmick (usually used in the game code more than speech)
+                More <a href="#gimmicks_gimmickid">below</a>.</li>
+        </ol>
+        <h3 id="gimmicks_longdesc">Long Descriptions</h3>
+        <p>
+            A long description on a gimmick usually has the intro, the pros, the cons, the notes, and the passive score
+            changes!<br>
+            The intro will tell what the gimmick will do.<br>
+            The pros and the cons will tell what are the good things and the bad things that happen from what the
+            gimmick does.<br>
+            The notes are basically extra notes for the gimmicks that are usually for no reason and funny<br>
+            And the passive score changes tell what changes in the passive score you earn every second. Which includes
+            base score and score. Where the operations on base score will happen before the ones on score.<br>
+            It is usually in the style of this:
+        </p>
+        <pre>[GIMMICK NAME] is a gimmick where [GIMMICK FUNCTION]
+    •PROS
+[GIMMICK PROS]
+    •CONS
+[GIMMICK CONS]
+    •NOTES
+[GIMMICK NOTES]
+    •PASSIVE SCORE CHANGES
+-[BASE SCORE OPERATION]
+-[SCORE OPERATION]</pre>
+        <h3 id="gimmicks_type">Type</h3>
+        <p><span class="warning">WARNING!</span> This property is not avaliable yet on
+            <code>Version 0.6.0 Part 3</code>, but will be avaliable on <code>Version 0.6.0 Part 4</code>.</p>
+        <p>In SGWH, there are 3 main types and many (not that many) special types.<br>
+            Basically, in SGWH, there are 3 types and currently 1 special type.<br>
+            A type tells how complex is the gimmick for understanding at a first glance. (super depending on my opinion
+            but i will tell how it works) Though, if there is a special type with them, their meanings may change.<br>
+            A special type tells what kind of gimmick it is.<br>
+            Here are the three main types of gimmicks, and their meaning (if it is by themselves.)
+        </p>
+        <ol type="1">
+            <li>Basic: Simple to understand at a first glance, usually it's a type where it's a simple "A becomes B" or
+                "When A happens, B will happen."</li>
+            <li>Advanced: A bit harder and needs a bit more brain power to understand, usually it's a type where it's a
+                tool or somethings that is not "A becomes B" but "You swim on the ground" or "You get a jumpscaring
+                teddy bear."</li>
+            <li>Complicated: Hard to understand, usually you would need to look at the long description to fully
+                understand.</li>
+        </ol>
+        <p>And here are the special types currently in the game.</p>
+        <ul>
+            <li>Series: (+3 to types) The gimmick is in a series of 2 or more gimmicks. The types can either a, the
+                meanings remain the same, and b, it is the difficulty.</li>
+        </ul>
+        <p>And now here's a table of the types and their number.</p>
+        <table>
+            <tr>
+                <th>-</th>
+                <th>No Special Type</th>
+                <th>Series Special Type</th>
+            </tr>
+            <tr>
+                <th>Basic</th>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Advanced</th>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Complicated</th>
+                <td>3</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <h3 id="gimmicks_gimmickid">GimmickID</h3>
+        <p>A GimmickID is an unique number that represents the gimmick.<br>
+            All gimmicks do <strong>not</strong> repeat the same GimmickID.<br>
+            You can think GimmickID as like your Citizen/Personal ID of your Goverment (ID) Card for the gimmicks.<br>
+            GimmickID is usually not talked about casually, but it actually used for the code.<br>
+            If there are no GimmickIDs, there is no system that you can use, except if you use the gimmick names as the
+            <code>keys</code> in the table but you cannot order it except Alphabetically which I actually don't like.
+        </p>
+
+    </div>
+    <script src="/SGWHWIKI/mainscript.js" defer></script>
+</body>

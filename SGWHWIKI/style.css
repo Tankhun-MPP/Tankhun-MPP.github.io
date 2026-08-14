@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Fredoka";
+    src: url("fonts/Fredoka.ttf") format("truetype");
+}
+body {
+    font-family: Fredoka, sans-serif;
+    background-color: cornflowerblue;
+}
+h1 h2 {
+    font-size:200%;
+}
+.pagename {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #2d3b54;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.directory {
+    width: 50%;
+    border: 2px solid blue;
+    border-radius: 8px;
+    border-collapse: collapse;
+    fill: rgb(174, 197, 217);
+    color: black;
+}
+th td tr {
+    fill: aliceblue;
+    border: 2px solid blue;
+}
+.spt dt {
+    font-weight: bolder;
+    font-size: 125%;
+}
+.spoiler {
+    border: 0px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+.spoiler-with-html {
+    background-color: #333;
+    color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px 6px;
+    user-select: none;
+}
+
+.spoiler-with-html.revealed {
+    background-color: transparent;
+    color: inherit;
+}
+.spoiler-with-html.revealed a {
+    color:blue;
+    pointer-events: auto;
+}
+.warning {
+    background-color: yellow;
+    border-radius: 8px;
+}
+#home {
+    font-family: Fredoka, sans-serif;
+    background-color: rgb(161, 190, 244);
+}
+#home pre {
+    font-family: Fredoka, sans-serif;
+    background-color: rgb(224, 235, 255);
+    color: black;
+    border: 2px solid cornflowerblue;
+    border-radius: 8px;
+}
+#gimmicks {
+    font-family: Fredoka, sans-serif;
+    background-color: rgb(197, 225, 247);
+}
+#story {
+    font-family: Fredoka, sans-serif;
+    background-color:#eeaaff;
+}
+#nojavascript, #nopage {
+    background-color: rgb(255, 157, 157);
+}
+
+.video-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Automatically calculates the exact height from the width */
+    display: block;
+    border: 0;
+}
