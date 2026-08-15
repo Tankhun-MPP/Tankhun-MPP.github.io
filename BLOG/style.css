@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Fredoka";
+    src: url("/fonts/Fredoka.ttf") format("truetype");
+}
+body {
+    background-color: blue;
+    color: black;
+    font-family: Fredoka, sans-serif;
+}
+.main {
+    background-color: lightblue;
+    border-radius: 8px;
+}
+article {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #222222;
+    color: white;
+    min-height: 200px;
+}
