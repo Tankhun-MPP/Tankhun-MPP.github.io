@@ -10,6 +10,9 @@ body {
 .main {
     background-color: lightblue;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 article {
     border: 2px solid black;
@@ -17,4 +20,6 @@ article {
     background-color: #222222;
     color: white;
     min-height: 200px;
+    width: 90%;
+    align-self: center;
 }

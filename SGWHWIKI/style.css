@@ -81,6 +81,10 @@ th td tr {
     font-family: Fredoka, sans-serif;
     background-color:#eeaaff;
 }
+#npc {
+    font-family: Fredoka, sans-serif;
+    background-color: #6a62ff;
+}
 #nojavascript, #nopage {
     background-color: rgb(255, 157, 157);
 }

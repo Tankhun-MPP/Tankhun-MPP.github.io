@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <title>SGWH WIKI</title>
+    <link rel="icon" type="image/png" href="/images/SGWHLOGO.png">
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="npc">
+        <div class="pagename">
+            <h1>HOME PAGE</h1><img src="/SGWHWIKI/images/SGWHLOGO.png" style="width:50px;height:50px;">
+        </div>
+        <table class="directory">
+            <tr>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/">Home</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/gimmicks/">Gimmicks</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/score/">Score System</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/gimmanese/">Gimmanese</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/story/">Story</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/npc/">NPCs and Dialogue System</a></td>
+            </tr>
+            <tr>
+                <td><a href="/SGWHWIKI/map/">Game map and features</a></td>
+            </tr>
+            <tr>
+                <th>Sections</th>
+            </tr>
+            <tr>
+                <td><a href="#intro">Introduction</a></td>
+            </tr>
+            <tr>
+                <td><a href="#dsb">Dialogue System Basics</a></td>
+            </tr>
+            <tr>
+                <td><a href="#npc">NPCs</a></td>
+            </tr>
+        </table>
+        <h1 id="intro">Introduction</h1>
+        <p>
+            Welcome to the NPCs and Dialogue System main page.<br>
+            This is where we discuss the dialogue and the npcs<br>
+            In this page, we will learn about the Dialogue System and show the NPC list<br>
+        </p>
+        <h1 id="dsb">Dialogue System Basics</h1>
+        <p>
+            In Some Gimmick Will Happen, there is tons of dialogue.
+            Of course, if there's tons of dialogue, there better be a good dialogue system.
+            So, in this page, we will show images of what the dialogue system looks like along with normal text.<br>
+            In SGWH, you cannot enter into a dialogue while being too far.
+            You can enter into a dialogue by being close enough to the NPC you're going to talk to, the max distance is usually 12.5 studs.<br>
+            When you are close enough to a NPC, a "DialogBox" appears.
+            It looks like this:<br>
+            [! variant]<br>
+            <img src="/SGWHWIKI/images/NPC_with_Exclaim_DialogBox.png" alt="A NPC named Thomas with a Message-Bubble box with a ! in it"><br>
+            [? variant]<br>
+            <img src="/SGWHWIKI/images/NPC_with_Question_DialogBox.png" alt="A NPC named TK with a Message-Bubble box with a ? in it"><br>
+            When you press/click on a DialogBox, The dialogue initiates.
+            A Dialogue Interface appears which will be the main interface for most of your dialogues here in SGWH.
+            A dialogue interface looks like this:<br>
+            <img src="/SGWHWIKI/images/Dialogue_Interface.png" 
+            alt="2 frames that are both translucent, with bracket-like borders at the top left and bottom right. The larger one containing the text, The smaller one containing the NPC's name"><br>
+            For every NPC, there is at least 1 path to follow until the end.
+            The NPC dialogue track will be like a train track where you are the train looking at the texts.
+            The dialogue interface will scroll the current part of the dialogue and keep the older ones,
+            deleting every text displayed if the npc (name) speaking changes.<br>
+            Dialogues can have many paths which can be determined by 2 factors:<br>
+            a) Question answers<br>
+            b) Your state / code<br>
+            Where when a dialogue reaches a state of split paths determined by a question,
+            the interface will have 1-3 options appear at the bottom in the color order: red, green, then blue.
+            When the options appear, it will look like this:<br>
+            <img src="/SGWHWIKI/images/Dialogue_Interface_with_Question.png"
+            alt="Dialogue Interface with 3 buttons at the button that is in the order color of red, green, and blue"><br>
+            And when a dialogue reaches a state where it executes a piece of code, the code will execute on the server and can
+            do literally anything. Which if it returns with a specific argument, it will move the path to another path,
+            or in terms of trains, the train flies to another path.<br>
+            WIP!!!
+        </p>
+    </div>
+    <script src="/SGWHWIKI/mainscript.js" defer></script>
+</body>
