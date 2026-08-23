@@ -31,6 +31,12 @@ th td tr {
     fill: aliceblue;
     border: 2px solid blue;
 }
+.fullwidth {
+    width:100%;
+}
+.halfwidth {
+    width:50%;
+}
 .spt dt {
     font-weight: bolder;
     font-size: 125%;
