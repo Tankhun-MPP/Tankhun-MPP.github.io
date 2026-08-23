@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Fredoka;
+    src: url("/fonts/Fredoka.ttf") format("truetype");
+}
+.heading {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    background-color: azure;
+}
+.heading h1 {
+    height: 50px;
+    font-size: 50px;
+    font-family: Fredoka, sans-serif;
+}
+.heading p {
+    background-color: black;
+    border-radius: 8px;
+    font-size: 25px;
+}
+.heading img {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+}
+body {
+    background-color: #020c34;
+}
