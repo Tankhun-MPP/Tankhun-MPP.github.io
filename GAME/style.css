@@ -10,6 +10,7 @@
     justify-content: flex-start;
     align-items:center;
     background-color: azure;
+    color: black;
 }
 .heading h1 {
     height: 50px;
@@ -20,6 +21,7 @@
     background-color: black;
     border-radius: 8px;
     font-size: 25px;
+    color: white;
 }
 .heading img {
     height: 50px;
@@ -28,4 +30,5 @@
 }
 body {
     background-color: #020c34;
+    color: white;
 }
