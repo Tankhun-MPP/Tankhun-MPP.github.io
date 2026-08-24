@@ -39,6 +39,10 @@ body {
     margin: 10px auto 0;
     border-radius: 8px; /*she is a real heart breaker (jk)*/
     border: 2px solid black;
+    aspect-ratio: 19 / 8;
+    color: white;
+    background-color: blue;
+    font-family: Fredoka, sans-serif;
 }
 .hud {
     display: flex;
