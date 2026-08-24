@@ -22,6 +22,7 @@
     border-radius: 8px;
     font-size: 25px;
     color: white !important;
+    font-family: Fredoka, sans-serif !important;
 }
 .heading img {
     height: 50px;
@@ -31,4 +32,15 @@
 body {
     background-color: #020c34;
     color: white;
+}
+.game {
+    box-sizing: border-box;
+    width: 98%;
+    margin: 10px auto 0;
+    border-radius: 8px; /*she is a real heart breaker (jk)*/
+    border: 2px solid black;
+}
+.hud {
+    display: flex;
+    justify-content: space-between;
 }
