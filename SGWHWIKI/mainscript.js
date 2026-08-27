@@ -10,17 +10,6 @@ async function navigateCheck(targetUrl) {
         window.location.href = "/network_failed/";
     }
 }
-function revealSpoiler(element) {
-    if (!element.dataset.originalText) {
-        element.dataset.originalText = element.innerText;
-    }
-
-    if (element.innerText === element.dataset.spoiler) {
-        element.innerText = element.dataset.originalText;
-    } else {
-        element.innerText = element.dataset.spoiler;
-    }
-}
 document.addEventListener("DOMContentLoaded", () => {
     const themeBtn = document.getElementById("theme-toggle");
     

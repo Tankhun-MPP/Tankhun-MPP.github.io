@@ -42,27 +42,13 @@ th td tr {
     font-size: 125%;
 }
 .spoiler {
-    border: 0px;
     background-color: black;
-    color: white;
-    border-radius: 8px;
+    color: black;
+    font-style: italic;
 }
-.spoiler-with-html {
-    background-color: #333;
-    color: transparent;
-    cursor: pointer;
-    border-radius: 4px;
-    padding: 2px 6px;
-    user-select: none;
-}
-
-.spoiler-with-html.revealed {
-    background-color: transparent;
-    color: inherit;
-}
-.spoiler-with-html.revealed a {
-    color:blue;
-    pointer-events: auto;
+.spoiler a {
+    color: black;
+    text-decoration: underline;
 }
 .warning {
     background-color: yellow;
