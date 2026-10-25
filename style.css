@@ -7,3 +7,9 @@ body {
     background-color: rgb(203, 222, 255);
     color: rgb(1, 1, 109);
 }
+.frame {
+    background-color: rgb(176, 169, 255);
+    border: 2px black;
+    border-radius: 8px;
+    font-family: Fredoka, sans-serif;
+}
